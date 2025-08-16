@@ -5,7 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f039475c-9582-4c01-9b1a-f7d4d57ae789" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/NewMonoBehaviourScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NewMonoBehaviourScript.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FightScene/State.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FightScene/State/Bag.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FightScene/State/Bag/BagState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FightScene/State/Bag/BagState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FightScene/State/BaseState.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FightScene/State/BaseState/BaseState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FightScene/State/BaseState/BaseState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FightScene/State/Fight.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FightScene/State/Fight/FightState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FightScene/State/Fight/FightState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FightScene/State/Pokenon.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FightScene/State/Pokenon/PokemonState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FightScene/State/Pokenon/PokemonState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FightScene/State/Run.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FightScene/State/Run/RunState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FightScene/State/Run/RunState.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.My project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.My project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/FightScence.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FightScence.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +33,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FightScence/FightAbstractBaseState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FightScence/FightStateManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -27,7 +50,8 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;bag-panel&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main-fight-scence-panel&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -83,6 +107,10 @@
       <option name="presentableId" value="Default" />
       <updated>1755349876033</updated>
       <workItem from="1755349877931" duration="732000" />
+      <workItem from="1755356082359" duration="334000" />
+      <workItem from="1755356429024" duration="76000" />
+      <workItem from="1755356650623" duration="282000" />
+      <workItem from="1755356955611" duration="3261000" />
     </task>
     <servers />
   </component>
