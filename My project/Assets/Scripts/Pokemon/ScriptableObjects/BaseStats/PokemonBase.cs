@@ -4,15 +4,14 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "PokemonData",menuName = "Pokemon/PokemkonData")]
 public class PokemonBase : ScriptableObject
 {
-    //pokemon base stats
     [Header("base stats")]
-    public baseStats hp;
-    public baseStats attackPower;
-    public baseStats defensePower;
-    public baseStats specialAtkPower;
-    public baseStats specialDefensePower;
-    public baseStats speed;
-    public baseStats total;
+    public int hp;
+    public int attackPower;
+    public int defensePower;
+    public int specialAtkPower;
+    public int specialDefensePower;
+    public int speed;
+    public int total;
     
     [Header("Pokédex data")]
     public int nationalNumber;
@@ -22,8 +21,8 @@ public class PokemonBase : ScriptableObject
     public int weight;
     public abilities[] abilities;
 
-    [Header("Training")] 
-    public baseStats[] evYield;
+    [Header("Training")] //states 
+    public StatYield[] evYield;
     public float catchRate;
     public int baseFriendship;
     public int baseExp;
@@ -31,6 +30,10 @@ public class PokemonBase : ScriptableObject
 
     [Header("breeding")]
     public elementType eggGroups;
-    public Vector2 gender; //left for man right for women
+    public GenderRatio genderRatio;
     public int eggCycles;
+
+
+    [Header("Effectiveness")] 
+    public VulnerableTypes vulnerableTypes;
 }
