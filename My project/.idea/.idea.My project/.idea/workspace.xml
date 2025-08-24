@@ -4,11 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f039475c-9582-4c01-9b1a-f7d4d57ae789" name="Changes" comment="">
+    <list default="true" id="28d8e5e1-1d01-41c1-b80d-27cc657e0932" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/Formulas.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/Formulas/Damage.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/Formulas/Damage/DamageContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/Formulas/Damage/DamageContext.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/Formulas/Formulas.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/Formulas/Formulas.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/PokemonInstance.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/PokemonInstance.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/Abilities.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/Gender.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/Gender.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.My project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.My project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NewMonoBehaviourScript.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NewMonoBehaviourScript.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/FightScence.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FightScence.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PokemonData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PokemonData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/BaseStats.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/BaseStats.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/BaseStats/PokemonBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/BaseStats/PokemonBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/BaseStats/PokemonBase.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/BaseStats/PokemonBase.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Variables.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Variables/Abilities.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/VulnerableTypes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Variables/Abilities.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/Abilities.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Variables/BaseStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/BaseStats.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Variables/BaseStats.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/BaseStats.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Variables/ElementType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/ElementType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Variables/ElementType.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/ElementType.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Variables/ElementsTypes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/ElementsTypes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Variables/ElementsTypes.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/ElementsTypes.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Variables/GrownRate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/GrownRate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Variables/GrownRate.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/GrownRate.cs.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,31 +45,35 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FightScence/FightAbstractBaseState.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FightScence/FightStateManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PokemonInstance.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ScriptableObjects/Variables/BaseStats.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ScriptableObjects/Variables/ElementsTypes.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 8
 }</component>
-  <component name="ProjectId" id="31N1mB4gNitmmn2eDTBljRYjkuK" />
+  <component name="ProjectId" id="31QIjfLnFwHo3OgoEqtmtDvVmMq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "fight-scence",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;pokemon-instance&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Launchers\Unity\6000.1.12f1\Editor\Unity.exe" />
@@ -85,16 +115,22 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f039475c-9582-4c01-9b1a-f7d4d57ae789" name="Changes" comment="" />
-      <created>1755349876033</created>
+      <changelist id="28d8e5e1-1d01-41c1-b80d-27cc657e0932" name="Changes" comment="" />
+      <created>1755450008727</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1755349876033</updated>
-      <workItem from="1755349877931" duration="732000" />
-      <workItem from="1755356082359" duration="334000" />
-      <workItem from="1755356429024" duration="76000" />
-      <workItem from="1755356650623" duration="282000" />
-      <workItem from="1755356955611" duration="4100000" />
+      <updated>1755450008727</updated>
+      <workItem from="1755450011479" duration="8341000" />
+      <workItem from="1755458568408" duration="12000" />
+      <workItem from="1755458596772" duration="501000" />
+      <workItem from="1755459304198" duration="28000" />
+      <workItem from="1755621414866" duration="2458000" />
+      <workItem from="1755857546124" duration="5360000" />
+      <workItem from="1755873414690" duration="3205000" />
+      <workItem from="1755895782655" duration="6963000" />
+      <workItem from="1755946388120" duration="6935000" />
+      <workItem from="1755958337176" duration="3422000" />
+      <workItem from="1756050765192" duration="3237000" />
     </task>
     <servers />
   </component>

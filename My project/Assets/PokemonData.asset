@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74e8fce2591feeb41a43d10459a94182, type: 3}
+  m_Name: PokemonData
+  m_EditorClassIdentifier: 
+  hp: 0
+  attackPower: 1
+  defensePower: 2
+  specialAtkPower: 3
+  specialDefensePower: 4
+  speed: 5
+  total: 6
+  nationalNumber: 0
+  type: 
+  species: 0
+  height: 0
+  weight: 0
+  evYield: 
+  catchRate: 0
+  baseFriendship: 0
+  baseExp: 0
+  growthRate: 0
+  eggGroups: 0
+  gender: {x: 0, y: 0}
+  eggCycles: 0
