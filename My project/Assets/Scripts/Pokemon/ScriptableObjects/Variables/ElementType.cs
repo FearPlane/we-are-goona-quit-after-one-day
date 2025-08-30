@@ -1,6 +1,6 @@
 ﻿namespace PokemonData
 {
-    public enum elementType
+    public enum ElementType
     {
         Normal,
         Fire,

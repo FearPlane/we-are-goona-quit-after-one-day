@@ -3,28 +3,28 @@ using System.Collections.Generic;
 
 namespace PokemonData
 {
-    public class VulnerableTypes
+    public class VulnerableChart
     {
-        private elementType[] pokemonType { get; set; }
-        public IReadOnlyDictionary<elementType, float> vulnerableTypes;
+        private ElementType[] pokemonType { get; set; }
+        public IReadOnlyDictionary<ElementType, float> vulnerableTypes;
 
-        public VulnerableTypes(elementType[] pokemonType)
+        public VulnerableChart(ElementType[] pokemonType)
         {
             this.pokemonType = pokemonType;
             this.vulnerableTypes = CalculateVulnerabilities(pokemonType);
         }
 
-        private Dictionary<elementType,float> CalculateVulnerabilities(elementType[] pokemonType)
+        private Dictionary<ElementType,float> CalculateVulnerabilities(ElementType[] pokemonType)
         {
-            Dictionary<elementType, float> _vulnerableTypes = new Dictionary<elementType, float>();
+            Dictionary<ElementType, float> _vulnerableTypes = new Dictionary<ElementType, float>();
 
-            int allElementLength = Enum.GetNames(typeof(elementType)).Length;
+            int allElementLength = Enum.GetNames(typeof(ElementType)).Length;
             float[] vulnerableValues = new float[allElementLength];
             
             for (int i = 0; i < vulnerableValues.Length; i++)
                 vulnerableValues[0] = 0f;
             
-            foreach (elementType type in pokemonType)
+            foreach (ElementType type in pokemonType)
             {
                 float[] chartValues = EffectivenessChart.chart[type];
 
@@ -34,7 +34,7 @@ namespace PokemonData
                 }
             }
 
-            foreach (elementType types in Enum.GetValues(typeof(elementType)))
+            foreach (ElementType types in Enum.GetValues(typeof(ElementType)))
             {
                 _vulnerableTypes.Add(types,vulnerableValues[(int)types]);
             }
@@ -52,26 +52,26 @@ namespace PokemonData
             0 stays 0f (no effect)
         */
         
-        public static Dictionary<elementType,float[]> chart { get; private set; } = new()
+        public static Dictionary<ElementType,float[]> chart { get; private set; } = new()
         {
-            { elementType.Normal,  new float[] {1f, 1f, 1f, 1f, 1f, 1f, 1f, 1f, 1f, 1f, 1f, 1f, 0.5f, 0f, 1f, 1f, 0.5f, 1f} },
-            { elementType.Fire,    new float[] {1f, 0.5f, 0.5f, 2f, 1f, 2f, 1f, 1f, 1f, 1f, 1f, 2f, 0.5f, 1f, 1f, 1f, 2f, 1f} },
-            { elementType.Water,   new float[] {1f, 2f, 0.5f, 0.5f, 1f, 1f, 1f, 1f, 2f, 1f, 1f, 1f, 2f, 1f, 1f, 1f, 1f, 1f} },
-            { elementType.Grass,   new float[] {1f, 0.5f, 2f, 0.5f, 1f, 1f, 1f, 0.5f, 2f, 0.5f, 1f, 0.5f, 2f, 1f, 1f, 1f, 0.5f, 1f} },
-            { elementType.Electric,new float[] {1f, 1f, 2f, 0.5f, 0.5f, 1f, 1f, 1f, 0f, 2f, 1f, 1f, 1f, 1f, 1f, 1f, 0.5f, 1f} },
-            { elementType.Ice,     new float[] {1f, 0.5f, 0.5f, 2f, 1f, 0.5f, 1f, 1f, 2f, 2f, 1f, 1f, 1f, 1f, 2f, 1f, 0.5f, 1f} },
-            { elementType.Fighting,new float[] {2f, 1f, 1f, 1f, 1f, 2f, 1f, 0.5f, 1f, 0.5f, 0.5f, 0.5f, 2f, 0f, 1f, 2f, 2f, 0.5f} },
-            { elementType.Poison,  new float[] {1f, 1f, 1f, 2f, 1f, 1f, 1f, 0.5f, 0.5f, 1f, 1f, 1f, 0.5f, 0.5f, 1f, 1f, 0f, 2f} },
-            { elementType.Ground,  new float[] {1f, 2f, 1f, 0.5f, 2f, 1f, 1f, 2f, 1f, 0f, 1f, 0.5f, 2f, 1f, 1f, 1f, 2f, 1f} },
-            { elementType.Flying,  new float[] {1f, 1f, 1f, 2f, 0.5f, 1f, 2f, 1f, 1f, 1f, 1f, 2f, 0.5f, 1f, 1f, 1f, 0.5f, 1f} },
-            { elementType.Psychic, new float[] {1f, 1f, 1f, 1f, 1f, 1f, 2f, 2f, 1f, 1f, 0.5f, 1f, 1f, 1f, 1f, 0f, 0.5f, 1f} },
-            { elementType.Bug,     new float[] {1f, 0.5f, 1f, 2f, 1f, 1f, 0.5f, 0.5f, 1f, 0.5f, 2f, 1f, 1f, 0.5f, 1f, 2f, 0.5f, 0.5f} },
-            { elementType.Rock,    new float[] {1f, 2f, 1f, 1f, 1f, 2f, 0.5f, 1f, 0.5f, 2f, 1f, 2f, 1f, 1f, 1f, 1f, 0.5f, 1f} },
-            { elementType.Ghost,   new float[] {0f, 1f, 1f, 1f, 1f, 1f, 1f, 1f, 1f, 1f, 2f, 1f, 1f, 2f, 1f, 0.5f, 0.5f, 1f} },
-            { elementType.Dragon,  new float[] {1f, 1f, 1f, 1f, 1f, 1f, 1f, 1f, 1f, 1f, 1f, 1f, 1f, 1f, 2f, 1f, 0.5f, 0f} },
-            { elementType.Dark,    new float[] {1f, 1f, 1f, 1f, 1f, 1f, 0.5f, 1f, 1f, 1f, 2f, 1f, 1f, 2f, 1f, 0.5f, 0.5f, 0.5f} },
-            { elementType.Steel,   new float[] {1f, 0.5f, 0.5f, 1f, 0.5f, 2f, 1f, 1f, 1f, 1f, 1f, 1f, 2f, 1f, 1f, 1f, 0.5f, 2f} },
-            { elementType.Fairy,   new float[] {1f, 0.5f, 1f, 1f, 1f, 1f, 2f, 0.5f, 1f, 1f, 1f, 1f, 1f, 1f, 2f, 2f, 0.5f, 1f} },
+            { ElementType.Normal,  new float[] {1f, 1f, 1f, 1f, 1f, 1f, 1f, 1f, 1f, 1f, 1f, 1f, 0.5f, 0f, 1f, 1f, 0.5f, 1f} },
+            { ElementType.Fire,    new float[] {1f, 0.5f, 0.5f, 2f, 1f, 2f, 1f, 1f, 1f, 1f, 1f, 2f, 0.5f, 1f, 1f, 1f, 2f, 1f} },
+            { ElementType.Water,   new float[] {1f, 2f, 0.5f, 0.5f, 1f, 1f, 1f, 1f, 2f, 1f, 1f, 1f, 2f, 1f, 1f, 1f, 1f, 1f} },
+            { ElementType.Grass,   new float[] {1f, 0.5f, 2f, 0.5f, 1f, 1f, 1f, 0.5f, 2f, 0.5f, 1f, 0.5f, 2f, 1f, 1f, 1f, 0.5f, 1f} },
+            { ElementType.Electric,new float[] {1f, 1f, 2f, 0.5f, 0.5f, 1f, 1f, 1f, 0f, 2f, 1f, 1f, 1f, 1f, 1f, 1f, 0.5f, 1f} },
+            { ElementType.Ice,     new float[] {1f, 0.5f, 0.5f, 2f, 1f, 0.5f, 1f, 1f, 2f, 2f, 1f, 1f, 1f, 1f, 2f, 1f, 0.5f, 1f} },
+            { ElementType.Fighting,new float[] {2f, 1f, 1f, 1f, 1f, 2f, 1f, 0.5f, 1f, 0.5f, 0.5f, 0.5f, 2f, 0f, 1f, 2f, 2f, 0.5f} },
+            { ElementType.Poison,  new float[] {1f, 1f, 1f, 2f, 1f, 1f, 1f, 0.5f, 0.5f, 1f, 1f, 1f, 0.5f, 0.5f, 1f, 1f, 0f, 2f} },
+            { ElementType.Ground,  new float[] {1f, 2f, 1f, 0.5f, 2f, 1f, 1f, 2f, 1f, 0f, 1f, 0.5f, 2f, 1f, 1f, 1f, 2f, 1f} },
+            { ElementType.Flying,  new float[] {1f, 1f, 1f, 2f, 0.5f, 1f, 2f, 1f, 1f, 1f, 1f, 2f, 0.5f, 1f, 1f, 1f, 0.5f, 1f} },
+            { ElementType.Psychic, new float[] {1f, 1f, 1f, 1f, 1f, 1f, 2f, 2f, 1f, 1f, 0.5f, 1f, 1f, 1f, 1f, 0f, 0.5f, 1f} },
+            { ElementType.Bug,     new float[] {1f, 0.5f, 1f, 2f, 1f, 1f, 0.5f, 0.5f, 1f, 0.5f, 2f, 1f, 1f, 0.5f, 1f, 2f, 0.5f, 0.5f} },
+            { ElementType.Rock,    new float[] {1f, 2f, 1f, 1f, 1f, 2f, 0.5f, 1f, 0.5f, 2f, 1f, 2f, 1f, 1f, 1f, 1f, 0.5f, 1f} },
+            { ElementType.Ghost,   new float[] {0f, 1f, 1f, 1f, 1f, 1f, 1f, 1f, 1f, 1f, 2f, 1f, 1f, 2f, 1f, 0.5f, 0.5f, 1f} },
+            { ElementType.Dragon,  new float[] {1f, 1f, 1f, 1f, 1f, 1f, 1f, 1f, 1f, 1f, 1f, 1f, 1f, 1f, 2f, 1f, 0.5f, 0f} },
+            { ElementType.Dark,    new float[] {1f, 1f, 1f, 1f, 1f, 1f, 0.5f, 1f, 1f, 1f, 2f, 1f, 1f, 2f, 1f, 0.5f, 0.5f, 0.5f} },
+            { ElementType.Steel,   new float[] {1f, 0.5f, 0.5f, 1f, 0.5f, 2f, 1f, 1f, 1f, 1f, 1f, 1f, 2f, 1f, 1f, 1f, 0.5f, 2f} },
+            { ElementType.Fairy,   new float[] {1f, 0.5f, 1f, 1f, 1f, 1f, 2f, 0.5f, 1f, 1f, 1f, 1f, 1f, 1f, 2f, 2f, 0.5f, 1f} },
         };
     }
 }

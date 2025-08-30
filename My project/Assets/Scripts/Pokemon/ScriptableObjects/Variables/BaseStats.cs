@@ -1,6 +1,6 @@
 namespace PokemonData
 {
-    public enum baseStats
+    public enum BaseStats
     {
         hp,
         attackPower,
@@ -13,7 +13,7 @@ namespace PokemonData
 
     public struct StatYield
     {
-        public baseStats stat;
+        public BaseStats stat;
         public int value;
     }
 }

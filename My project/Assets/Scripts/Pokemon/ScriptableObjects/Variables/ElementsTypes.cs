@@ -1,6 +1,6 @@
 namespace PokemonData
 {
-    public enum species
+    public enum Species
     {
         Mouse,
         Dragon,

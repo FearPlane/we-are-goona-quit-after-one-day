@@ -1,6 +1,6 @@
 ﻿namespace PokemonData
 {
-    public enum growthRate
+    public enum GrowthRate
     {
         Erratic,
         Fast,
