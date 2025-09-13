@@ -4,10 +4,10 @@
     {
         public static float Damage(DamageContext damageContext)
         {
-            float modifier = damageContext.targetVulnerableValue;
+            float modifier = damageContext.targetElementVulnerableValue;
 
-            return (((((2 * damageContext.attackerLevel / 5) + 2) * damageContext.abilityPower *
-                damageContext.attackerAttackPower / damageContext.attackedDefencePower) / 50) + 2) * modifier;
+            return (((((2 * damageContext.attackerLevel / 5) + 2) * damageContext.attackerAbilityPower *
+                damageContext.attackerAttackPower / damageContext.targetDefencePower) / 50) + 2) * modifier;
         }
     }
 }

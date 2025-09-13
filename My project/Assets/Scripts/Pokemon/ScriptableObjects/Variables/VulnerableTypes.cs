@@ -5,7 +5,7 @@ namespace PokemonData
 {
     public class VulnerableChart
     {
-        private ElementType[] pokemonType { get; set; }
+        public ElementType[] pokemonType { get; set; }
         public IReadOnlyDictionary<ElementType, float> vulnerableTypes;
 
         public VulnerableChart(ElementType[] pokemonType)

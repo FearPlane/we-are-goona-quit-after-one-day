@@ -2,16 +2,16 @@ namespace PokemonData
 {
     public enum BaseStats
     {
-        hp,
-        attackPower,
-        defensePower,
-        specialAtkPower,
-        specialDefensePower,
-        speed,
-        total,
+        Hp,
+        AttackPower,
+        DefensePower,
+        SpecialAtkPower,
+        SpecialDefensePower,
+        Speed,
+        Total,
     }
 
-    public struct StatYield
+    public class Stat
     {
         public BaseStats stat;
         public int value;

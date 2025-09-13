@@ -25,14 +25,15 @@ namespace Pokemon
         public Ability[] abilities;
 
         [Header("Training")] //states 
-        public StatYield[] evYield;
+        public Stat[] evYield;
 
         public float catchRate;
         public int baseFriendship;
         public int baseExp;
         public GrowthRate growthRate;
 
-        [Header("breeding")] public ElementType eggGroups;
+        [Header("breeding")] 
+        public ElementType eggGroups;
         public GenderRatio genderRatio;
         public int eggCycles;
 
