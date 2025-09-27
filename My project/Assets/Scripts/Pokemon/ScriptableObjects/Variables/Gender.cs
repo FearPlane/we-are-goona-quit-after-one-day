@@ -1,4 +1,4 @@
-﻿namespace PokemonData
+﻿namespace PokemonData.Values
 {
     public struct GenderRatio
     {

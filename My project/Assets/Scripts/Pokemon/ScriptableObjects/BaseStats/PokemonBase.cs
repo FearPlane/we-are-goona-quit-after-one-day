@@ -1,7 +1,8 @@
 using PokemonData;
 using UnityEngine;
+using PokemonData.Values;
 
-namespace Pokemon
+namespace PokemonData
 {
     [CreateAssetMenu(fileName = "PokemonData", menuName = "Pokemon/PokemkonData")]
 

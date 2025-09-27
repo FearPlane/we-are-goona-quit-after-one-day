@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using PokemonData.Values;
 
 namespace PokemonData
 {
@@ -7,19 +8,19 @@ namespace PokemonData
     
     public class Ability : ScriptableObject
     {
-        public enum Category
+        public enum AttackCategory
         {
             Physical, //use atk and def (damage formula)
             Special, //use sp.atk and sp.def (damage formula)
             Status //give effects
         }
         
-        public Move move;
-        public Category category;
-        public ElementType elementType;
-        public int power;
-        public int accuracy;
-        public float powerPoints;
-        //Effects: { chance: 10%, status: PARALYSIS }
+        public Move move; //attack move
+        public AttackCategory category; //attack type
+        public ElementType elementType; //element of the attack
+        public int power; //the power of the attack
+        public int accuracy; //the chance to hit the opponent
+        public float powerPoints; //attack use number
+        public Effects effects;
     }
 }

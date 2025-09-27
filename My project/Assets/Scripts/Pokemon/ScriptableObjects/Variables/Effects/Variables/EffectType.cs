@@ -1,6 +1,6 @@
-﻿namespace PokemonData.Effects
+﻿namespace PokemonData.Values
 {
-    public enum Type
+    public enum EffectType
     {
         StatusCondition,    // Inflicts a status condition on the target (Burn, Paralysis, Poison, Sleep, Freeze, Confusion, Infatuation)
         StatChange,         // Modifies a stat stage of the target or user (Atk, Def, Sp.Atk, Sp.Def, Speed, Accuracy, Evasion)

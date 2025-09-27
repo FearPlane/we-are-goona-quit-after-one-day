@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using PokemonData.Values;
 
 namespace PokemonData
 {

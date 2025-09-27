@@ -1,6 +1,6 @@
-﻿namespace PokemonData.Effects
+﻿namespace PokemonData.Values
 {
-    public enum Status
+    public enum EffectStatus
     {
         Burn,
         Paralysis,

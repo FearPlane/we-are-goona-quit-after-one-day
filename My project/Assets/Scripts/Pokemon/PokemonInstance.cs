@@ -1,4 +1,6 @@
-﻿namespace Pokemon
+﻿using PokemonData;
+
+namespace Pokemon
 {
     public class PokemonInstance
     {
