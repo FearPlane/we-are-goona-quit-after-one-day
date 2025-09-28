@@ -6,13 +6,13 @@ namespace PokemonData
 {
     public class VulnerableChart
     {
-        public ElementType[] pokemonType { get; set; }
-        public IReadOnlyDictionary<ElementType, float> vulnerableTypes;
+        public ElementType[] pokemonType { get; private set; } //getting pokemonTypes
+        public IReadOnlyDictionary<ElementType, float> vulnerableTypes; //the vulnerabilities of the pokemonTypes that have been gettting
 
         public VulnerableChart(ElementType[] pokemonType)
         {
-            this.pokemonType = pokemonType;
-            this.vulnerableTypes = CalculateVulnerabilities(pokemonType);
+            this.pokemonType = pokemonType; //setting pokemon type
+            this.vulnerableTypes = CalculateVulnerabilities(pokemonType); //getting the vulnerabilities of the pokemon type parameter from the vulnerabilities chart
         }
 
         private Dictionary<ElementType,float> CalculateVulnerabilities(ElementType[] pokemonType)

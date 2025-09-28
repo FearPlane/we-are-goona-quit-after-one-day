@@ -17,17 +17,17 @@ namespace PokemonData
         public int speed;
         public int total;
 
-        [Header("Pokédex data")] public int nationalNumber;
-        public ElementType[] type;
+        [Header("Pokédex data")] 
+        public int nationalNumber;
+        public ElementType[] type; // Normal,Fire,Water,Electric,etc...
         public Species species;
         public int height;
         public int weight;
         public int level;
         public Ability[] abilities;
 
-        [Header("Training")] //states 
+        [Header("Training")]
         public Stat[] evYield;
-
         public float catchRate;
         public int baseFriendship;
         public int baseExp;
@@ -39,6 +39,7 @@ namespace PokemonData
         public int eggCycles;
 
 
-        [Header("Effectiveness")] public VulnerableChart vulnerableChart;
+        [Header("Effectiveness")] 
+        public VulnerableChart vulnerableChart;
     }
 }
