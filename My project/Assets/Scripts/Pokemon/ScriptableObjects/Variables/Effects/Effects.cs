@@ -1,13 +1,18 @@
-﻿namespace PokemonData.Values
+﻿using Attribute;
+using UnityEngine;
+
+namespace PokemonData.Values
 {
     [System.Serializable]
     public class Effects //Todo find the formulas for the effects and each stats
     {
         public EffectType type; //The kind of effect
+        
         public EffectStatus status; //Which status condition to apply (only for statusCondition)
         public BattleStat stat; //Which stat to modify (only for `statChange`)
 
-        private int _stages; //backing field
+        public int _stages; //backing field
+        
         public int Stages
         {
             get => _stages;
@@ -19,11 +24,11 @@
         public float value; //Extra numeric info (Heal, Recoil, FieldEffect, EntryHazard, Screen, MultiHit, Repeat, Charge, Priority, DelayNextTurn, Trap, Substitute) (each type's value effect on something else)
         public int duration; //How long the effect lasts (turns) 
 
-        private int _priority; //backing field
+        public int _priority; //backing field
         public int Priority
         {
             get => _priority;
-            set => _priority = (int)ValidateRange(value, 2, -5);
+            set => _priority = (int)ValidateRange(value, -5, 2);
         }
 
         public int repeats; //Number of hits / repeated effect
@@ -32,13 +37,11 @@
         public FormChangeTrigger form; //The form field usually appears in move/effect metadata when the move can change the form of a Pokémon. (for `formChange`)
         public TypeChange typeChange; //effect is used when a move, ability, or item changes the Pokémon’s type (or sometimes multiple types). (for `typeChange`) 
         
-        
-        
         private float ValidateRange(float value,float  min, float max)
         {
             if (value < min || value > max)
                 throw new System.ArgumentOutOfRangeException(nameof(value),
-                    "the value range need to set around " + min + "to "+ max +" include");
+                    "the value " + value + " range need to set around " + min + " to " + max +" include");
             return value;
         }
     }

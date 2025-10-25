@@ -18,3 +18,20 @@ MonoBehaviour:
   power: 0
   accuracy: 0
   powerPoints: 0
+  effects:
+    type: 1
+    status: 3
+    stat: 0
+    _stages: 6
+    chance: 0
+    target: 0
+    value: 0
+    duration: 0
+    _priority: 0
+    repeats: 0
+    fieldEffectType: 0
+    item: 0
+    form: 0
+    typeChange:
+      typeChangeSource: 0
+      typeChangeTrigger: 0

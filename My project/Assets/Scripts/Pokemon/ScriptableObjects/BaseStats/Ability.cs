@@ -4,8 +4,6 @@ using PokemonData.Values;
 namespace PokemonData
 {
     [CreateAssetMenu(fileName = "Ability", menuName = "Pokemon/Ability")]
-    
-    
     public class Ability : ScriptableObject
     {
         public Move move; //move name
