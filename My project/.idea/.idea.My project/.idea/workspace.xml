@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28d8e5e1-1d01-41c1-b80d-27cc657e0932" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Attribute.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Attribute/AbilityShowIfEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Attribute/AbilityShowIfEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ReadMe.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ReadMe.txt.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.My project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.My project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ability.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Ability.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/FightScence.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FightScence.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/BaseStats/Ability.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/BaseStats/Ability.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/Effects/Effects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/Effects/Effects.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/Move.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/Move.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Attribute/AbilityShowIfEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Attribute/AbilityShowIfEditor.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +147,7 @@
       <workItem from="1761300412891" duration="1817000" />
       <workItem from="1761323440939" duration="3981000" />
       <workItem from="1761392356558" duration="3776000" />
-      <workItem from="1761410525891" duration="5243000" />
+      <workItem from="1761410525891" duration="5426000" />
     </task>
     <servers />
   </component>

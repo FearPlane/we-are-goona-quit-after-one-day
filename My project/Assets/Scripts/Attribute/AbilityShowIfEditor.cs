@@ -46,30 +46,30 @@ namespace Attribute
 
         private void DrawFields()
         {
-            DrawStatesPropertyFieldEffectsType(EffectType.StatusCondition, nameof(effectsRef.status));
-            DrawStatesPropertyFieldEffectsType(EffectType.StatChange, nameof(effectsRef.stat));
-            DrawStatesPropertyFieldEffectsType(EffectType.StatChange, nameof(effectsRef._stages));
+            DrawEffectsFieldsWithStates(EffectType.StatusCondition, nameof(effectsRef.status));
+            DrawEffectsFieldsWithStates(EffectType.StatChange, nameof(effectsRef.stat));
+            DrawEffectsFieldsWithStates(EffectType.StatChange, nameof(effectsRef._stages));
             
-            DrawPropertyFieldEffects(nameof(effectsRef.chance));
-            DrawPropertyFieldEffects(nameof(effectsRef.target));
-            DrawPropertyFieldEffects(nameof(effectsRef.value));
-            DrawPropertyFieldEffects(nameof(effectsRef.duration));
-            DrawPropertyFieldEffects(nameof(effectsRef._priority));
-            DrawPropertyFieldEffects(nameof(effectsRef.repeats));
-            DrawPropertyFieldEffects(nameof(effectsRef.fieldEffectType));
-            DrawPropertyFieldEffects(nameof(effectsRef.item));
+            DrawEffectsFields(nameof(effectsRef.chance));
+            DrawEffectsFields(nameof(effectsRef.target));
+            DrawEffectsFields(nameof(effectsRef.value));
+            DrawEffectsFields(nameof(effectsRef.duration));
+            DrawEffectsFields(nameof(effectsRef._priority));
+            DrawEffectsFields(nameof(effectsRef.repeats));
+            DrawEffectsFields(nameof(effectsRef.fieldEffectType));
+            DrawEffectsFields(nameof(effectsRef.item));
             
-            DrawStatesPropertyFieldEffectsType(EffectType.FormChange,nameof(effectsRef.form));
-            DrawStatesPropertyFieldEffectsType(EffectType.TypeChange,nameof(effectsRef.typeChange));
+            DrawEffectsFieldsWithStates(EffectType.FormChange,nameof(effectsRef.form));
+            DrawEffectsFieldsWithStates(EffectType.TypeChange,nameof(effectsRef.typeChange));
         }
 
-        private void DrawStatesPropertyFieldEffectsType(EffectType stateEffectType,string fieldToDraw)
+        private void DrawEffectsFieldsWithStates(EffectType stateEffectType,string fieldToDraw)
         {
             if(effectsRef != null && effectsRef.type == stateEffectType)
                 DrawPropertyField(effectsProperty.FindPropertyRelative(fieldToDraw));
         }
         
-        private void DrawPropertyFieldEffects(string fieldToDraw)
+        private void DrawEffectsFields(string fieldToDraw)
         {
             DrawPropertyField(effectsProperty.FindPropertyRelative(fieldToDraw));
         }
