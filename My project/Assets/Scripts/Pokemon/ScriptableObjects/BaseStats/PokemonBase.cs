@@ -5,7 +5,6 @@ using PokemonData.Values;
 namespace PokemonData
 {
     [CreateAssetMenu(fileName = "PokemonData", menuName = "Pokemon/PokemkonData")]
-
     public class PokemonBase : ScriptableObject
     {
         [Header("base stats")] 
@@ -22,10 +21,10 @@ namespace PokemonData
         public int nationalNumber;
         public ElementType[] type; // Normal,Fire,Water,Electric,etc...
         public Species species;
-        public int height;
-        public int weight;
+        public float height;
+        public float weight;
         public int level;
-        public Ability[] abilities;
+        public ScriptableObject[] actionData;
 
         [Header("Training")]
         public Stat[] evYield;
@@ -35,7 +34,7 @@ namespace PokemonData
         public GrowthRate growthRate;
 
         [Header("breeding")] 
-        public ElementType eggGroups;
+        public ElementType[] eggGroups; //Todo check about the type elementtype for the eggGroup maybe the type isnt fit
         public GenderRatio genderRatio;
         public int eggCycles;
 

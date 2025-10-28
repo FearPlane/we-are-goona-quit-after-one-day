@@ -11,6 +11,7 @@ namespace PokemonData.Values
         Evasion //Evasion controls how likely a Pokémon is to avoid being hit by an opponent’s move.
     }
 
+    [System.Serializable]
     public class Stat
     {
         public BattleStat stat;

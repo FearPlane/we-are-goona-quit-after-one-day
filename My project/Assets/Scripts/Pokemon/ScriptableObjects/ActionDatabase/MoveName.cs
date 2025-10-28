@@ -1,6 +1,6 @@
 ﻿namespace PokemonData.Values
 {
-    public enum Move
+    public enum MoveName
     {
         Acid,
     }

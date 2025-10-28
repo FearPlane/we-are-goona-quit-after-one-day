@@ -7,11 +7,9 @@ using UnityEditor;
 
 namespace Attribute
 {
-    [CustomEditor(typeof(Ability))]
-    public class AbilityShowIfEditor : Editor
+    [CustomEditor(typeof(AbilityData))]
+    public class AbilityDataShowIfEditor : Editor
     {
-        bool showFoldoutContent = true;
-
         private SerializedProperty effectsProperty;
         private Effects effectsRef;
         public override void OnInspectorGUI()
@@ -19,23 +17,28 @@ namespace Attribute
             EditorGUI.BeginChangeCheck();
             serializedObject.Update();
             
-            Ability targetObject = serializedObject.targetObject as Ability;
+            AbilityData targetObject = serializedObject.targetObject as AbilityData;
             if (targetObject == null) return;
 
-            DrawPropertiesExcluding(serializedObject, "m_Script",nameof(targetObject.effects)); //print effects the exact name inside the variable ability value type
+            EditorGUILayout.LabelField("Action Type",targetObject.actionType.ToString(),EditorStyles.boldLabel);
+            EditorGUILayout.LabelField("Action Category",targetObject.actionCategory.ToString(),EditorStyles.boldLabel);
+            
+            string[] excludingProperties = {"m_Script",nameof(targetObject.actionType),nameof(targetObject.actionCategory),nameof(targetObject.effects)};
+            DrawPropertiesExcluding(serializedObject,excludingProperties);
+            
+            EditorGUILayout.Space();
             
             effectsProperty = serializedObject.FindProperty(nameof(targetObject.effects));
             if (effectsProperty == null) return;
 
+            
             effectsRef = targetObject.effects;
-            showFoldoutContent = EditorGUILayout.Foldout(showFoldoutContent, effectsRef.GetType().Name);
-
-            if (!showFoldoutContent) return;
-
+            EditorGUILayout.LabelField("Effects");
             EditorGUILayout.PropertyField(effectsProperty.FindPropertyRelative(nameof(effectsRef.type)));
 
             DrawFields();
-
+            
+            
             if (!EditorGUI.EndChangeCheck()) return;
             
             serializedObject.ApplyModifiedProperties();
