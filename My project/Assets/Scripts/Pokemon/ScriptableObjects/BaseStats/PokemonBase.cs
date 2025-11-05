@@ -34,7 +34,7 @@ namespace PokemonData
         public GrowthRate growthRate;
 
         [Header("breeding")] 
-        public ElementType[] eggGroups; //Todo check about the type elementtype for the eggGroup maybe the type isnt fit
+        public EggGroup[] eggGroups;
         public GenderRatio genderRatio;
         public int eggCycles;
 

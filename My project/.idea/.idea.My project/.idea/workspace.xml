@@ -5,38 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28d8e5e1-1d01-41c1-b80d-27cc657e0932" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Attribute/AbilityDataShowIfEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Attribute/AbilityDataShowIfEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Attribute/PokemonBaseValuesEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Attribute/PokemonBaseValuesEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/ActionDatabase.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/ActionDatabase/AbilityName.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/ActionDatabase/AbilityName.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/BaseStats/AbilityData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/BaseStats/AbilityData.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/ActionType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/ActionType.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/BaseStats/ActionData.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/EggGroup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/EggGroup.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.My project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.My project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ability.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ability.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PokemonData.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PokemonData.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/FightScence.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FightScence.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Attribute/AbilityShowIfEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Attribute/MoveDataShowIfEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Attribute/AbilityShowIfEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Attribute/MoveDataShowIfEditor.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/BaseStats/Ability.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/BaseStats/MoveData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/BaseStats/Ability.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/BaseStats/MoveData.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/BaseStats/AbilityData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/BaseStats/ActionData/AbilityData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/BaseStats/AbilityData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/BaseStats/ActionData/AbilityData.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/BaseStats/MoveData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/BaseStats/ActionData/MoveData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/BaseStats/MoveData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/BaseStats/ActionData/MoveData.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/BaseStats/PokemonBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/BaseStats/PokemonBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/BattleStat.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/BattleStat.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/Effects/Variables/MoveCategory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/ActionCategory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/Effects/Variables/MoveCategory.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/ActionCategory.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/Gender.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/Gender.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/Move.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/ActionDatabase/MoveName.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/Move.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/ActionDatabase/MoveName.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/Species.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/Species.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ReadMe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ReadMe.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneManagerViewer/FightControl.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneManagerViewer/FightControl.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +55,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Setting-ActionData-BaseStat",
+    "git-widget-placeholder": "PokemonBase",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -179,7 +156,8 @@
       <workItem from="1761392356558" duration="3776000" />
       <workItem from="1761410525891" duration="6395000" />
       <workItem from="1761512466793" duration="2352000" />
-      <workItem from="1761682124813" duration="5225000" />
+      <workItem from="1761682124813" duration="5312000" />
+      <workItem from="1762367415349" duration="2549000" />
     </task>
     <servers />
   </component>
