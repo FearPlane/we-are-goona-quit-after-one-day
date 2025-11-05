@@ -21,8 +21,15 @@ namespace PokemonData.Values
 
         public int chance; //Probability that the effect occurs (percent)
         public EffectTarget target; //Who the effect applies top
-        public float value; //Extra numeric info (Heal, Recoil, FieldEffect, EntryHazard, Screen, MultiHit, Repeat, Charge, Priority, DelayNextTurn, Trap, Substitute) (each type's value effect on something else)
-        public int duration; //How long the effect lasts (turns) 
+        
+        public float _value; //Extra numeric info (Heal, Recoil, FieldEffect, EntryHazard, Screen, MultiHit, Repeat, Charge, Priority, DelayNextTurn, Trap, Substitute) (each type's value effect on something else)
+        public float Value
+        {
+            get => _value;
+            set => _value = (int)ValidateRange(value, -6, 6);
+        } //Extra numeric info (Heal, Recoil, FieldEffect, EntryHazard, Screen, MultiHit, Repeat, Charge, Priority, DelayNextTurn, Trap, Substitute) (each type's value effect on something else)
+        
+        public EffectDuration duration; //How long the effect lasts (turns) 
 
         public int _priority; //backing field
         public int Priority

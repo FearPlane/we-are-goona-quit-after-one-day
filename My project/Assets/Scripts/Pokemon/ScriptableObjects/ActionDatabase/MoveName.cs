@@ -3,5 +3,6 @@
     public enum MoveName
     {
         Acid,
+        Growl,
     }
 }

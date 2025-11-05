@@ -5,5 +5,6 @@ namespace PokemonData.Values
         Mouse,
         Dragon,
         Seed,
+        Lizard,
     }
 }

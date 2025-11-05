@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b9baf9ccdf6d43f38692456810a93c4d, type: 3}
-  m_Name: AbilityData
+  m_Name: Ability-Overgrow
   m_EditorClassIdentifier: 
   actionType: 1
   actionCategory: 2
-  abilityName: 1
-  elementType: 3
+  abilityName: 0
+  elementType: 4
   accuracy: 0
   powerPoints: 0
   effects:
@@ -23,10 +23,10 @@ MonoBehaviour:
     status: 0
     stat: 0
     _stages: 0
-    chance: 0
+    chance: 100
     target: 0
-    value: 0
-    duration: 0
+    value: 50
+    duration: 10
     _priority: 0
     repeats: 0
     fieldEffectType: 0

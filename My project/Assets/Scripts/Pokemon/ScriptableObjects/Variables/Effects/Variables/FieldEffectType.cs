@@ -2,6 +2,8 @@ namespace PokemonData.Values
 {
     public enum FieldEffectType
     {
+        None,
+        
         // Weather
         Sun,
         Rain,

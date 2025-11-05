@@ -2,6 +2,7 @@ namespace PokemonData.Values
 {
     public enum ItemEffectAction
     {
+        None,
         Steal,      // Take the target's held item and give it to the user (Thief, Covet)
         Remove,     // Knock off or destroy the target's item (Knock Off)
         Consume,    // Consume and apply the effect of the target's item (Bug Bite, Pluck)

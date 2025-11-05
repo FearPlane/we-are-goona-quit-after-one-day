@@ -45,6 +45,7 @@ namespace Attribute
             
             effectsRef.Stages = effectsRef._stages;
             effectsRef.Priority = effectsRef._priority;
+            effectsRef.Value = effectsRef.Value;
         }
 
         private void DrawFields()
@@ -55,7 +56,7 @@ namespace Attribute
             
             DrawEffectsFields(nameof(effectsRef.chance));
             DrawEffectsFields(nameof(effectsRef.target));
-            DrawEffectsFields(nameof(effectsRef.value));
+            DrawEffectsFields(nameof(effectsRef._value));
             DrawEffectsFields(nameof(effectsRef.duration));
             DrawEffectsFields(nameof(effectsRef._priority));
             DrawEffectsFields(nameof(effectsRef.repeats));
