@@ -19,7 +19,7 @@ MonoBehaviour:
   specialDefensePower: 65
   speed: 45
   total: 318
-  pokemonName: Bulbasaur
+  pokemonName: 1
   nationalNumber: 1
   type: 0400000007000000
   species: 2

@@ -17,7 +17,7 @@ namespace PokemonData
         public int total;
 
         [Header("Pokédex data")]
-        public string pokemonName;
+        public PokemonName pokemonName;
         public int nationalNumber;
         public ElementType[] type; // Normal,Fire,Water,Electric,etc...
         public Species species;

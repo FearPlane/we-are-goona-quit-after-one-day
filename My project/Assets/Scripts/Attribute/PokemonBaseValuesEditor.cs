@@ -22,6 +22,8 @@ namespace Attribute
                                         targetObject.specialAtkPower +
                                         targetObject.specialDefensePower + 
                                         targetObject.speed);
+
+            targetObject.nationalNumber = (int)targetObject.pokemonName;
             
             if (!EditorGUI.EndChangeCheck())
                 EditorUtility.SetDirty(targetObject);

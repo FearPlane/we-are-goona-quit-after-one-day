@@ -5,22 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28d8e5e1-1d01-41c1-b80d-27cc657e0932" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/Effects/Variables/EffectDuration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/Effects/Variables/EffectDuration.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/PokemonName.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/PokemonName.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.My project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.My project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Abilitys/AbilityData.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Abilitys/AbilityData.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Moves/MoveData.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Moves/MoveData.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Pokemons/Bulbasaur.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Pokemons/Bulbasaur.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Attribute/AbilityDataShowIfEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Attribute/AbilityDataShowIfEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Attribute/MoveDataShowIfEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Attribute/MoveDataShowIfEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/ActionDatabase/AbilityName.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/ActionDatabase/AbilityName.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/ActionDatabase/MoveName.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/ActionDatabase/MoveName.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/Effects/Effects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/Effects/Effects.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/Effects/Variables/FieldEffectType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/Effects/Variables/FieldEffectType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/Effects/Variables/ItemEffectAction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/Effects/Variables/ItemEffectAction.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/Species.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/Variables/Species.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Pokemons/Charmander.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Pokemons/Charmander.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Attribute/PokemonBaseValuesEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Attribute/PokemonBaseValuesEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/BaseStats/ActionData/MoveData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/BaseStats/ActionData/MoveData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/BaseStats/PokemonBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/ScriptableObjects/BaseStats/PokemonBase.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,20 +50,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "PokemonBase",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.completion",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;PokemonBase&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Launchers\Unity\6000.1.12f1\Editor\Unity.exe" />
@@ -165,6 +157,7 @@
       <workItem from="1761512466793" duration="2352000" />
       <workItem from="1761682124813" duration="5312000" />
       <workItem from="1762367415349" duration="5020000" />
+      <workItem from="1762517530255" duration="3264000" />
     </task>
     <servers />
   </component>

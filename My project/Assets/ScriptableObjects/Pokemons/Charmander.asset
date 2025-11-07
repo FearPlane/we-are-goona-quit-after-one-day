@@ -19,7 +19,7 @@ MonoBehaviour:
   specialDefensePower: 50
   speed: 65
   total: 309
-  pokemonName: Charmander
+  pokemonName: 4
   nationalNumber: 4
   type: 01000000
   species: 3
