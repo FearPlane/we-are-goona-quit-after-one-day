@@ -29,7 +29,7 @@ MonoBehaviour:
   actionData:
   - {fileID: 11400000, guid: bd6a1408e5653a344bc9aa040e1ed356, type: 2}
   evYield:
-  - stat: 4
+  - battleStat: 0
     value: 1
   catchRate: 45
   baseFriendship: 50
