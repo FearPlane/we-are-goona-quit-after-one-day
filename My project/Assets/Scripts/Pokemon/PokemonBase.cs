@@ -9,14 +9,16 @@ namespace PokemonGame.Pokemon
     public class PokemonBase : ScriptableObject
     {
         [Header("base stats")] 
-        public float hp;
-        public int attackPower;
-        public int defensePower;
-        public int specialAtkPower;
-        public int specialDefensePower;
-        public int speed;
+        public BaseStat hp;
+        public BaseStat attackPower;
+        public BaseStat defensePower;
+        public BaseStat specialAtkPower;
+        public BaseStat specialDefensePower;
+        public BaseStat speed;
+        
+        [Space(15)]
         public int total;
-
+        
         [Header("Pokédex data")]
         public PokemonName pokemonName;
         public int nationalNumber;
@@ -39,8 +41,7 @@ namespace PokemonGame.Pokemon
         public GenderRatio genderRatio;
         public int eggCycles;
 
-
-        [Header("Effectiveness")] 
-        public VulnerableChartData vulnerableChart;
+        [Header("Evolution")] 
+        public ScriptableObject evolutionPokemon; //Todo check if iv and ev is effected when pokemon is evolved
     }
 }

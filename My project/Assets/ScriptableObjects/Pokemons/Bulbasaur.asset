@@ -12,12 +12,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74e8fce2591feeb41a43d10459a94182, type: 3}
   m_Name: Bulbasaur
   m_EditorClassIdentifier: 
-  hp: 45
-  attackPower: 49
-  defensePower: 49
-  specialAtkPower: 65
-  specialDefensePower: 65
-  speed: 45
+  hp:
+    value: 45
+    minValue: 200
+    maxValue: 294
+  attackPower:
+    value: 49
+    minValue: 92
+    maxValue: 216
+  defensePower:
+    value: 49
+    minValue: 92
+    maxValue: 216
+  specialAtkPower:
+    value: 65
+    minValue: 121
+    maxValue: 251
+  specialDefensePower:
+    value: 65
+    minValue: 121
+    maxValue: 251
+  speed:
+    value: 45
+    minValue: 85
+    maxValue: 207
   total: 318
   pokemonName: 1
   nationalNumber: 1
@@ -29,7 +47,7 @@ MonoBehaviour:
   actionData:
   - {fileID: 11400000, guid: f12c154d63fb1e143a57a54530749808, type: 2}
   evYield:
-  - stat: 2
+  - battleStat: 2
     value: 1
   catchRate: 45
   baseFriendship: 50
@@ -40,3 +58,4 @@ MonoBehaviour:
     male: 87.5
     female: 12.5
   eggCycles: 20
+  evolutionPokemon: {fileID: 0}

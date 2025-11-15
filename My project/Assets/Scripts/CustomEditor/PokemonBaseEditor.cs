@@ -9,23 +9,25 @@ namespace PokemonGame.CustomEditor
         public override void OnInspectorGUI()
         {
             EditorGUI.BeginChangeCheck();
-            DrawDefaultInspector();
+            serializedObject.Update();
+            
+            DrawPropertiesExcluding(serializedObject,"m_Script"); 
 
             PokemonBase targetObject = serializedObject.targetObject as PokemonBase;
 
             if(targetObject == null) return;
-            
-            targetObject.total =  (int)(targetObject.hp +
-                                        targetObject.attackPower +
-                                        targetObject.defensePower +
-                                        targetObject.specialAtkPower +
-                                        targetObject.specialDefensePower + 
-                                        targetObject.speed);
+
+            targetObject.total =  targetObject.hp.value +
+                                        targetObject.attackPower.value +
+                                        targetObject.defensePower.value +
+                                        targetObject.specialAtkPower.value +
+                                        targetObject.specialDefensePower.value + 
+                                        targetObject.speed.value;
 
             targetObject.nationalNumber = (int)targetObject.pokemonName;
             
-            if (!EditorGUI.EndChangeCheck())
-                EditorUtility.SetDirty(targetObject);
+            if (EditorGUI.EndChangeCheck())
+                serializedObject.ApplyModifiedProperties();
         }
     }
 }

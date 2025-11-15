@@ -12,12 +12,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74e8fce2591feeb41a43d10459a94182, type: 3}
   m_Name: Charmander
   m_EditorClassIdentifier: 
-  hp: 39
-  attackPower: 52
-  defensePower: 43
-  specialAtkPower: 60
-  specialDefensePower: 50
-  speed: 65
+  hp:
+    value: 39
+    minValue: 188
+    maxValue: 282
+  attackPower:
+    value: 52
+    minValue: 98
+    maxValue: 223
+  defensePower:
+    value: 43
+    minValue: 81
+    maxValue: 203
+  specialAtkPower:
+    value: 60
+    minValue: 112
+    maxValue: 240
+  specialDefensePower:
+    value: 50
+    minValue: 94
+    maxValue: 218
+  speed:
+    value: 65
+    minValue: 121
+    maxValue: 251
   total: 309
   pokemonName: 4
   nationalNumber: 4
@@ -29,7 +47,7 @@ MonoBehaviour:
   actionData:
   - {fileID: 11400000, guid: bd6a1408e5653a344bc9aa040e1ed356, type: 2}
   evYield:
-  - battleStat: 0
+  - battleStat: 4
     value: 1
   catchRate: 45
   baseFriendship: 50
@@ -40,3 +58,4 @@ MonoBehaviour:
     male: 87.5
     female: 12.5
   eggCycles: 20
+  evolutionPokemon: {fileID: 0}
