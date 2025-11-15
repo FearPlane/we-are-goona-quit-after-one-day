@@ -5,18 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28d8e5e1-1d01-41c1-b80d-27cc657e0932" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/Data/BaseStat.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/Data/BaseStat.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/Data/EffectivenessChart.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/Data/EffectivenessChart.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Formulas.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Formulas/Stat.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Formulas/Stat.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/Enums/BaseStatEnum.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/Enums/BaseStatEnum.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PokemonCore/Iv.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PokemonCore/Iv.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.My project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.My project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Pokemons/Bulbasaur.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Pokemons/Bulbasaur.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Pokemons/Charmander.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Pokemons/Charmander.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CustomEditor/PokemonBaseEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CustomEditor/PokemonBaseEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pokemon/Data/StatData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/Data/StatData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pokemon/Data/VulnerableChartData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pokemon/Data/VulnerableChartData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pokemon/PokemonBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/PokemonBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PokemonCore/Inatances/PokemonInstance.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PokemonCore/Inatances/PokemonInstance.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +46,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "PokemonBase-11.15",
+    "git-widget-placeholder": "Ev-Iv-Structure-15.11-16.11",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
