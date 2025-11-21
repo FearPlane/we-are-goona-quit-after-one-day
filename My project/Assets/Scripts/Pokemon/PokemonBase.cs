@@ -2,24 +2,25 @@ using UnityEngine;
 using PokemonGame.Pokemon.Data;
 using PokemonGame.Pokemon.Enums;
 using PokemonGame.PokemonCore.Enums;
+using Unity.VisualScripting;
 
 namespace PokemonGame.Pokemon
 {
     [CreateAssetMenu(fileName = "PokemonBase", menuName = "Pokemon/PokemkonBase")]
-    public class PokemonBase : ScriptableObject
+    public sealed class PokemonBase : ScriptableObject
     {
         [Header("base stats")] 
         public BaseStat hp;
-        public BaseStat attackPower;
-        public BaseStat defensePower;
-        public BaseStat specialAtkPower;
-        public BaseStat specialDefensePower;
+        public BaseStat attack;
+        public BaseStat specialAttack;
+        public BaseStat defense;
+        public BaseStat specialDefense;
         public BaseStat speed;
         
         [Space(15)]
         public int total;
         
-        [Header("Pokédex data")]
+        [Header("Pokedex data")]
         public PokemonName pokemonName;
         public int nationalNumber;
         public ElementType[] type; // Normal,Fire,Water,Electric,etc...

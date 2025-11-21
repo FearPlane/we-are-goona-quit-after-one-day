@@ -6,7 +6,7 @@ using PokemonGame.PokemonCore.Enums;
 namespace PokemonGame.Move
 {
     [CreateAssetMenu(fileName = "MoveData", menuName = "Pokemon/Move")]
-    public class MoveBase : ScriptableObject
+    public sealed class MoveBase : ScriptableObject
     {
         public ActionType actionType = ActionType.Move;
         public ActionCategory actionCategory; //move type
@@ -14,7 +14,7 @@ namespace PokemonGame.Move
         public ElementType elementType; //element of the attack
         public int power; //the power of the attack
         public int accuracy; //the chance to hit the opponent
-        public float powerPoints; //attack use number
+        public int powerPoints; //attack use number
         public EffectsData effects;
     }
 }

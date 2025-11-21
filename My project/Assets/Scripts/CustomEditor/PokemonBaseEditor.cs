@@ -18,10 +18,10 @@ namespace PokemonGame.CustomEditor
             if(targetObject == null) return;
 
             targetObject.total =  targetObject.hp.value +
-                                        targetObject.attackPower.value +
-                                        targetObject.defensePower.value +
-                                        targetObject.specialAtkPower.value +
-                                        targetObject.specialDefensePower.value + 
+                                        targetObject.attack.value +
+                                        targetObject.specialAttack.value +
+                                        targetObject.defense.value +
+                                        targetObject.specialDefense.value + 
                                         targetObject.speed.value;
 
             targetObject.nationalNumber = (int)targetObject.pokemonName;
