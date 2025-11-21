@@ -5,27 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28d8e5e1-1d01-41c1-b80d-27cc657e0932" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DataTransfer/ActionDataInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DataTransfer/ActionDataInfo.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DataTransfer/BaseStatsInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DataTransfer/BaseStatsInfo.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DataTransfer/PokedexDataInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DataTransfer/PokedexDataInfo.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Formulas/Damage.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Formulas/Damage.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.My project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.My project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ability/AbilityBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ability/AbilityBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CustomEditor/PokemonBaseEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CustomEditor/PokemonBaseEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Damage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Damage/DamageContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Damage/DamageContext.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Damage/Formulas.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Damage/Formulas.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Move/MoveBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Move/MoveBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pokemon/PokemonBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pokemon/PokemonBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PokemonCore/Inatances.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inatances.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PokemonCore/Inatances/PokemonInstance.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inatances/PokemonInstance.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PokemonCore/Inatances/PokemonInstance.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inatances/PokemonInstance.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Formulas/Damage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Formulas/Damage.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,20 +35,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Damage-Stracture-16.11-17.11&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "Damage-Stracture-16.11-21.11",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Launchers\Unity\6000.1.12f1\Editor\Unity.exe" />
@@ -168,7 +149,7 @@
       <workItem from="1763401196660" duration="1784000" />
       <workItem from="1763573188921" duration="1893000" />
       <workItem from="1763662903844" duration="4312000" />
-      <workItem from="1763724195882" duration="7735000" />
+      <workItem from="1763724195882" duration="8146000" />
     </task>
     <servers />
   </component>
